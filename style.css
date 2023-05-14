@@ -57,7 +57,7 @@ a {
     font-size: 36px;
     font-weight: 700;
     line-height: 42.2px;
-    letter-spacing: 10%;
+    letter-spacing: 3.6px;
 }
 .shop_back_coll {
     float: right;
@@ -102,4 +102,49 @@ a {
 .catalog_link:hover {
     color: #F13C6E;
 }
-
+.main_first_block {
+    background: #F13C6E;
+}
+.main_first_block_banner {
+    background-image: url(img/banner.png);
+    width: 1920px;
+    height: 604px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 192px 0 193px 0;
+}
+.main_first_block_wrap {
+    width: 308px;
+}
+.main_first_block_title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 56.25px;
+    margin-bottom: 50px;
+}
+.main_first_block_text {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.main_first_block_button {
+    min-width: 170px;
+    background-color: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: 1px;
+    padding: 12px 26px 13px 27px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.main_first_block_button:hover {
+    background-color: #ffffff;
+    color: #F13C6E;
+}

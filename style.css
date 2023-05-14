@@ -29,6 +29,9 @@ a {
     display: inline-block;
     vertical-align: top;
 }
+.menu_item:last-child {
+    margin-right: 0;
+}
 .menu_link {
     line-height: 16.41px;
     color: #333;
@@ -76,3 +79,27 @@ a {
     color: #000;
     line-height: 18.75px;
 }
+.header_third_wrap {
+    height: 79px;
+    padding: 30px 0;
+}
+.catalog_list {
+    text-align: center;
+}
+.catalog_item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+}
+.catalog_item:last-child {
+    margin-right: 0;
+}
+.catalog_link {
+    color: #000;
+    line-height: 18.75px;
+    text-transform: capitalize;
+}
+.catalog_link:hover {
+    color: #F13C6E;
+}
+

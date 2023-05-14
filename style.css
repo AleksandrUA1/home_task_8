@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+.header_wrap {
+    background-color: #E5E5E5;
+    height: 50px;
+    padding: 17px 0 16px;
+}
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_list {
+    text-align: center;
+}
+.header_item {
+    display: inline-block;
+    vertical-align: top;
+}
+.header_link {
+    line-height: 16.41px;
+    color: #333;
+    margin-right: 30px;
+    text-transform: capitalize;
+}
+.header_link:hover {
+    color: #F13C6E;
+}

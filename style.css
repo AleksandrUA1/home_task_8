@@ -9,7 +9,10 @@ body {
 a {
     text-decoration: none;
 }
-.header_wrap {
+.clearfix {
+    clear: both;
+}
+.header_first_wrap {
     background-color: #E5E5E5;
     height: 50px;
     padding: 17px 0 16px;
@@ -19,19 +22,57 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-.header_list {
+.menu_list {
     text-align: center;
 }
-.header_item {
+.menu_item {
     display: inline-block;
     vertical-align: top;
 }
-.header_link {
+.menu_link {
     line-height: 16.41px;
     color: #333;
     margin-right: 30px;
     text-transform: capitalize;
 }
-.header_link:hover {
+.menu_link:hover {
     color: #F13C6E;
+}
+.header_second_wrap {
+    border-bottom: 1px solid #EFEFEF;
+    height: 120px;
+    padding: 20px 0;  
+}
+.shop_logo {
+    float: left;
+}
+.shop_title {
+    float: left;
+    margin: 21px 0 0 20px;
+    color: #F13C6E;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.2px;
+    letter-spacing: 10%;
+}
+.shop_back_coll {
+    float: right;
+    padding: 10px 26px 11px 27px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    background-color: #fff;
+    margin-top: 20px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.shop_telephone {
+    float: right;
+    margin: 31px 40px 0 0;
+    color: #000;
+    line-height: 18.75px;
 }
